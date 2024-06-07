@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Escriba un numero entero de 3 cifras\n");
+    scanf("%d", &num);
+    printf("%d, %d, %d", (num/100)%10, (num/10)%10, num%10);
+}
